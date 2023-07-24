@@ -145,6 +145,97 @@ footer {
         justify-content: center;
         margin-bottom: 100px;
 }
+
+/*Mobile*/
+section {
+display: flex;    
+flex-direction: column;
+
+}
+/*Tablet*/
+@media (min-width:768px){
+    p{
+        font-size: 18px;
+    }
+}
+
+/*Desktop*/
+@media (min-width:1024px){
+
+
+    
+    p.bio{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+        align-items: center;
+
+    }
+
+    .circular--square {
+        display: flex;
+        border-radius: 300%;
+        flex-direction:row;
+        align-items: flex-start;
+        height: 300px;
+        width: 300px;
+      }
+
+    h1 {
+        font-size: 48px;
+        padding:0px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .articulo2 {
+    margin: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;    
+    }
+
+    .boton {
+    margin: 500px;
+    margin-top: 0px;
+    margin-bottom: 200px;    
+    }
+
+    .articulo1{
+        height: 5px;
+        margin: 300px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0;
+        flex-direction: row;
+    }
+    section{
+        min-height: 1vh
+    }
+
+    header {
+        height: 70px;
+    }
+
+    a{
+        background-color: #fbfbfb
+        transition: background-color .5s;
+    }
+
+    a:hover{
+
+        background-color: seagreen;
+
+    }
+
+    
+}
+
     
     
 /* Recomendaciones! 
